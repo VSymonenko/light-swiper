@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/VSymonenko/light-swiper/issues"
   },
-  "homepage": "https://github.com/VSymonenko/light-swiper#readme"
+  "homepage": "https://github.com/VSymonenko/light-swiper#readme",
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  }
 }
