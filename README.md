@@ -4,7 +4,7 @@
 
 ### API
 
-❌ Lock swiper
+❌ Lock Swiper
 
 ❌ Anchor support
 
