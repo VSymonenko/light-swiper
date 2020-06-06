@@ -1,1 +1,57 @@
 # light-swiper
+
+## Roadmap
+
+### API
+
+❌ Lock swiper
+
+❌ Anchor support
+
+❌ Slide effect
+
+❌ Fade effect
+
+❌ Lazy load image
+
+❌ Touch support
+
+❌ Sensitivity
+
+❌ Active class
+
+❌ Full width mode
+
+❌ Full height mode
+
+❌ Width config
+
+❌ Height config
+
+❌ Infinity Loop
+
+❌ Mobile mode
+
+❌ Navigation control
+
+❌ Pagination control
+
+❌ Slides per view
+
+❌ Space between slides
+
+❌ Animation speed
+
+❌ Config startIndex
+
+❌ Grouping
+
+❌ Breakpoints support
+
+❌ Support [slots](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot)
+
+### Functionality
+
+❌ Reactivity update
+
+❌ Resize update
