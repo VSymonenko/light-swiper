@@ -1,7 +1,7 @@
-import Swiper from '@/index';
+// import Swiper from '@/index';
 
 test.todo('should be lock');
 
-test.todo('should be anchor');
+// test.todo('should be anchor');
 
 // test

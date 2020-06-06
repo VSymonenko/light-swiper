@@ -1,2 +1,3 @@
-const Swiper = {}
+const Swiper = {};
+
 export default Swiper;
