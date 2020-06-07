@@ -1,6 +1,12 @@
 // import Swiper from '@/index';
 
-test.todo('should be lock');
+beforeEach(() => {
+  // const swiper = new Swiper();
+});
+
+test.skip('should be lock', () => {
+  // const swiper = new Swiper();
+});
 
 test.todo('should be anchor');
 
