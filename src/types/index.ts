@@ -2,7 +2,7 @@ export type Effect = 'slide' | 'fade';
 
 export interface Pagination {
   clickable: boolean;
-  active: string;
+  activeClass: string;
 }
 
 export interface Navigation {
@@ -31,11 +31,15 @@ export interface SwiperOptions {
   width?: number;
   height?: number;
   loop?: boolean;
-  isMobile: boolean;
+  isMobile?: boolean;
   navigation?: Navigation;
   pagination?: Pagination;
   slidesPerView?: number;
   spaceBetweenSlides?: number;
   speed?: number
   breakpoints?: Breakpoints;
+}
+
+export interface ISwiper extends SwiperOptions {
+
 }

@@ -1,11 +1,12 @@
 // import Swiper from '@/index';
 
+// const swiper = new Swiper();
+
 beforeEach(() => {
-  // const swiper = new Swiper();
 });
 
 test.skip('should be lock', () => {
-  // const swiper = new Swiper();
+  // expect(swiper.lock).toBeTruthy();
 });
 
 test.todo('should be anchor');
@@ -59,3 +60,7 @@ test.todo('should be support slots');
 test.todo('the data must be updated');
 
 test.todo('support resize window');
+
+test.todo('FIXME: add io-ts');
+test.todo('FIXME: add stryker');
+test.todo('FIXME: add testcafe');

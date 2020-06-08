@@ -4,6 +4,7 @@
   "description": "A lightweight swiper",
   "main": "dist/index.js",
   "scripts": {
+    "check": "npm run check:types && npm run lint && npm test",
     "lint": "eslint . --ext .ts",
     "test": "jest",
     "check:types": "tsc --noEmit",
@@ -44,7 +45,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run check:types && npm run lint && npm test"
+      "pre-commit": "npm run check"
     }
   }
 }
