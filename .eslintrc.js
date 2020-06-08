@@ -17,6 +17,9 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
-    'import/no-unresolved': 0
+    '@typescript-eslint/no-unused-vars': 'error',
+    'import/no-unresolved': 0,
+    'linebreak-style': ['error', 'windows'],
+    'import/extensions': 0,
   },
 };
