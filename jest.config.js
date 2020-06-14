@@ -4,4 +4,7 @@ module.exports = {
   testMatch: [
     '**/tests/unit/**/*.spec.ts|**/__tests__/*.ts',
   ],
+  moduleNameMapper: {
+    '^@/(.*)$': '<rootDir>/src/$1',
+  },
 };
