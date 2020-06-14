@@ -40,6 +40,7 @@ export interface SwiperOptions {
   breakpoints?: Breakpoints;
 }
 
-export interface ISwiper extends SwiperOptions {
+export type CSSSelector = string;
 
+export interface ISwiper extends SwiperOptions {
 }

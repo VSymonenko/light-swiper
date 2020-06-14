@@ -1,11 +1,11 @@
 import Swiper from '@/index';
+import { options } from '@/fixtures';
 
-const swiper = new Swiper();
+const swiper = new Swiper('swiper', options);
 
-beforeEach(() => {
-});
+test('should be lock', () => {
+  swiper.lock = true;
 
-test.skip('should be lock', () => {
   expect(swiper.lock).toBeTruthy();
 });
 

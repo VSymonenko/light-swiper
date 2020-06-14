@@ -13,6 +13,7 @@
     "baseUrl": ".",
     "outDir": "dist",
     "moduleResolution": "node",
+    "suppressImplicitAnyIndexErrors": true,
     "paths": {
       "@/*": ["src/*"]
     }

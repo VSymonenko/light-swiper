@@ -1,5 +1,6 @@
+import { SwiperOptions } from '@/types';
 // eslint-disable-next-line import/prefer-default-export
-export const options = {
+export const options: SwiperOptions = {
   lock: false,
   anchor: '',
   effect: 'slide',

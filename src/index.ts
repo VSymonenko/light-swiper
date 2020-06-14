@@ -1,13 +1,16 @@
-// import initOptions from '@/initOptions';
-import { ISwiper } from '@/types';
+import SwiperOptions from '@/initOptions';
+import { ISwiper, SwiperOptions as Options, CSSSelector } from '@/types';
 
-class Swiper implements ISwiper {
-  lock = false;
-  // #options: SwiperOptions = initOptions;
+class Swiper extends SwiperOptions implements ISwiper {
+  protected selector!: CSSSelector;
 
-  // super(options: SwiperOptions) {
-  //   this.#options = options;
-  // }
+  constructor(selector: CSSSelector, options: Options) {
+    super();
+    this.selector = selector;
+    Object.keys(options).forEach((key) => {
+      this[key] = options[key];
+    });
+  }
 }
 
 export default Swiper;

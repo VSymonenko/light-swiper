@@ -1,44 +1,53 @@
-import { SwiperOptions as Options, Effect } from '@/types';
+// import { SwiperOptions as Options, Effect } from '@/types'; // FIXME:
+import { SwiperOptions as Options } from '@/types';
 
 export default class SwiperOptions implements Options {
-  lock = false;
+  public get lock() {
+    return this.#lock;
+  }
 
-  anchor = '';
+  public set lock(value: boolean) {
+    this.#lock = value;
+  }
 
-  effect: Effect = 'slide';
+  #lock: boolean = false;
 
-  sensitivity = 1;
+  // anchor = '';
 
-  activeClass = 'active';
+  // effect: Effect = 'slide';
 
-  fullWidth = true;
+  // sensitivity = 1;
 
-  fullHeight = true;
+  // activeClass = 'active';
 
-  width = 300;
+  // fullWidth = true;
 
-  height = 300;
+  // fullHeight = true;
 
-  loop = false;
+  // width = 300;
 
-  isMobile = false;
+  // height = 300;
 
-  navigation = {
-    icons: {
-      next: '>',
-      previous: '<',
-    },
-    calibration: 15,
-  };
+  // loop = false;
 
-  pagination = {
-    activeClass: 'active-page',
-    clickable: true,
-  };
+  // isMobile = false;
 
-  slidesPerView = 1;
+  // navigation = {
+  //   icons: {
+  //     next: '>',
+  //     previous: '<',
+  //   },
+  //   calibration: 15,
+  // };
 
-  spaceBetweenSlides = 15;
+  // pagination = {
+  //   activeClass: 'active-page',
+  //   clickable: true,
+  // };
 
-  speed = 300;
+  // slidesPerView = 1;
+
+  // spaceBetweenSlides = 15;
+
+  // speed = 300;
 }
