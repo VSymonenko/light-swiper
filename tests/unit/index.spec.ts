@@ -1,12 +1,12 @@
-// import Swiper from '@/index';
+import Swiper from '@/index';
 
-// const swiper = new Swiper();
+const swiper = new Swiper();
 
 beforeEach(() => {
 });
 
 test.skip('should be lock', () => {
-  // expect(swiper.lock).toBeTruthy();
+  expect(swiper.lock).toBeTruthy();
 });
 
 test.todo('should be anchor');
