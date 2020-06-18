@@ -64,3 +64,5 @@ test.todo('support resize window');
 test.todo('FIXME: add io-ts');
 test.todo('FIXME: add stryker');
 test.todo('FIXME: add testcafe');
+
+test.todo('FIXME: add storybook');
