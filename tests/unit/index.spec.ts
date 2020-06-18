@@ -66,3 +66,5 @@ test.todo('FIXME: add stryker');
 test.todo('FIXME: add testcafe');
 
 test.todo('FIXME: add storybook');
+
+test.todo('FIXME: add commitizen');
