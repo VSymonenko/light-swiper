@@ -55,3 +55,7 @@
 ❌ Reactivity update
 
 ❌ Resize update
+
+## CONTRIBUTION
+
+* For commit use ```git-cz```
