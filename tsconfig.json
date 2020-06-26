@@ -20,7 +20,8 @@
   },
   "include": [
     "src/**/*",
-    "tests/**/*"
+    "tests/**/*",
+    "stories/**/*"
   ],
   "exclude": [
     "node_modules",

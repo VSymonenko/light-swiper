@@ -50,7 +50,9 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.10.1"
+    "@babel/polyfill": "^7.10.1",
+    "fp-ts": "^2.6.6",
+    "io-ts": "^2.2.6"
   },
   "husky": {
     "hooks": {
