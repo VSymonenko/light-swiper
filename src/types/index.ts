@@ -42,5 +42,7 @@ export interface SwiperOptions {
 
 export type CSSSelector = string;
 
+export type CSSSelectorType = 'class' | 'id';
+
 export interface ISwiper extends SwiperOptions {
 }

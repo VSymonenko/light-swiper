@@ -1,7 +1,15 @@
 import Swiper from '@/swiper';
 import { options } from '@/fixtures';
 
-const swiper = new Swiper('swiper', options);
+let swiper: Swiper;
+const el = document.createElement('div');
+const classSelector = 'simple-swiper-container';
+el.className = classSelector;
+document.body.appendChild(el);
+
+beforeEach(() => {
+  swiper = new Swiper(classSelector, options);
+});
 
 test('should be lock', () => {
   swiper.lock = true;

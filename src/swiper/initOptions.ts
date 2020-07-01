@@ -1,4 +1,3 @@
-// import { SwiperOptions as Options, Effect } from '@/types'; // FIXME:
 import { SwiperOptions as Options } from '@/types';
 
 export default class SwiperOptions implements Options {

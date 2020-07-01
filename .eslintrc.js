@@ -17,6 +17,7 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
+    'max-len': ['error', { code: 80 }],
     '@typescript-eslint/no-unused-vars': 'error',
     'import/no-unresolved': 0,
     'linebreak-style': ['error', 'windows'],
