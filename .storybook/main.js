@@ -5,6 +5,7 @@ module.exports = {
   addons: [
     '@storybook/preset-typescript',
     '@storybook/addon-storysource',
+    '@storybook/addon-docs',
   ],
   webpackFinal: (config) => {
     // eslint-disable-next-line no-param-reassign
