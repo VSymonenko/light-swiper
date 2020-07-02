@@ -2,7 +2,10 @@ const path = require('path');
 
 module.exports = {
   stories: ['../stories/**/*.stories.[tj]s'],
-  addons: ['@storybook/preset-typescript'],
+  addons: [
+    '@storybook/preset-typescript',
+    '@storybook/addon-storysource',
+  ],
   webpackFinal: (config) => {
     // eslint-disable-next-line no-param-reassign
     config.resolve.alias = {

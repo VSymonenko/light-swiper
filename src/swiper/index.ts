@@ -10,8 +10,8 @@ class Swiper extends SwiperOptions implements ISwiper {
   constructor(selector: CSSSelector, options?: Options) {
     super();
     this.selector = selector;
-    const type = detectSelector(this.selector);
-    this.$el = getElement(type, this.selector);
+    const type = detectSelector(selector);
+    this.$el = getElement(type, selector.substring(1));
     if (options) {
       Object.keys(options).forEach((key) => {
         this[key] = options[key];

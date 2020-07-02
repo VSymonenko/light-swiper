@@ -8,7 +8,7 @@ el.className = classSelector;
 document.body.appendChild(el);
 
 beforeEach(() => {
-  swiper = new Swiper(classSelector, options);
+  swiper = new Swiper(`.${classSelector}`, options);
 });
 
 test('should be lock', () => {

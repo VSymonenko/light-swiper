@@ -1,18 +1,15 @@
 import Swiper from '@/swiper';
-// eslint-disable-next-line import/no-extraneous-dependencies
 
 export default {
   title: 'Swiper',
 };
 
-export const simple = () => {
-  const el = document.createElement('div');
-  const classSelector = 'simple-swiper-container';
-  el.className = classSelector;
+export const basic = () => {
   setTimeout(() => {
     // attach swiper after container mounted
-    const swiper = new Swiper(classSelector);
+    const swiper = new Swiper('.basic-swiper-container');
     console.log(swiper);
   });
-  return el;
+  return `<div class=basic-swiper-container>
+        </div>`;
 };
