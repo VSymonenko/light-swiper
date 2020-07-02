@@ -8,7 +8,7 @@ el.className = classSelector;
 document.body.appendChild(el);
 
 beforeEach(() => {
-  swiper = new Swiper(`.${classSelector}`, options);
+  swiper = new Swiper(`.${classSelector}`, [], options);
 });
 
 test('should be lock', () => {
@@ -72,3 +72,5 @@ test.todo('support resize window');
 test.todo('FIXME: add stryker');
 
 test.todo('FIXME: add testcafe');
+
+test.todo('FIXME: move to monorepo');

@@ -44,5 +44,34 @@ export type CSSSelector = string;
 
 export type CSSSelectorType = 'class' | 'id';
 
+export type Slide = string | SlideItem;
+
+export type SlideType = 'video' | 'picture';
+
+// includes attributes for <source>
+// eslint-disable-next-line max-len
+// https://html.spec.whatwg.org/multipage/embedded-content.html#the-source-element
+export interface SlideItem {
+  type: SlideType;
+  source: Source;
+  image: Image;
+
+}
+
+export interface Source {
+  src: string;
+  type: string;
+  srcset: string;
+  sizes: string;
+  media: string;
+}
+
+export interface Image {
+  src: string;
+  alt: string;
+  srcset: string;
+  sizes: string;
+}
+
 export interface ISwiper extends SwiperOptions {
 }

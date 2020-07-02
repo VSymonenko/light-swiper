@@ -1,4 +1,9 @@
-import { SwiperOptions as Options, CSSSelector, ISwiper } from '@/types';
+import {
+  CSSSelector,
+  ISwiper,
+  Slide,
+  SwiperOptions as Options,
+} from '@/types';
 import { detectSelector, getElement } from '@/utils';
 import SwiperOptions from './initOptions';
 
@@ -7,11 +12,12 @@ class Swiper extends SwiperOptions implements ISwiper {
 
   readonly $el!: HTMLElement | Element | null;
 
-  constructor(selector: CSSSelector, options?: Options) {
+  constructor(selector: CSSSelector, slides: Slide[], options?: Options) {
     super();
     this.selector = selector;
     const type = detectSelector(selector);
     this.$el = getElement(type, selector.substring(1));
+    this.slides = slides;
     if (options) {
       Object.keys(options).forEach((key) => {
         this[key] = options[key];

@@ -1,4 +1,4 @@
-import { SwiperOptions as Options } from '@/types';
+import { SwiperOptions as Options, Slide } from '@/types';
 
 export default class SwiperOptions implements Options {
   public get lock() {
@@ -9,7 +9,17 @@ export default class SwiperOptions implements Options {
     this.#lock = value;
   }
 
+  public get slides() {
+    return this.#slides;
+  }
+
+  public set slides(value: Slide[]) {
+    this.#slides = value;
+  }
+
   #lock: boolean = false;
+
+  #slides!: Slide[];
 
   // anchor = '';
 
