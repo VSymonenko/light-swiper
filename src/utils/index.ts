@@ -21,3 +21,5 @@ export const getElement = (
   type === 'id' ? document.getElementById(selector)
     : document.getElementsByClassName(selector).item(0)
 );
+
+export * from './validator';

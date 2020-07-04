@@ -4,7 +4,11 @@ import {
   Slide,
   SwiperOptions as Options,
 } from '@/types';
-import { detectSelector, getElement } from '@/utils';
+import {
+  detectSelector,
+  getElement,
+  validateSelector,
+} from '@/utils';
 import SwiperOptions from './initOptions';
 
 class Swiper extends SwiperOptions implements ISwiper {
@@ -14,6 +18,7 @@ class Swiper extends SwiperOptions implements ISwiper {
 
   constructor(selector: CSSSelector, slides: Slide[], options?: Options) {
     super();
+    validateSelector(selector);
     this.selector = selector;
     const type = detectSelector(selector);
     this.$el = getElement(type, selector.substring(1));
