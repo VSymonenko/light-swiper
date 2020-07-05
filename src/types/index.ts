@@ -22,22 +22,20 @@ export interface Breakpoints {
 
 export interface SwiperOptions {
   lock?: boolean;
-  anchor?: string;
   effect?: Effect;
   sensitivity?: number;
   activeClass?: string;
-  fullWidth?: boolean;
-  fullHeight?: boolean;
   width?: number;
   height?: number;
   loop?: boolean;
-  isMobile?: boolean;
-  navigation?: Navigation;
-  pagination?: Pagination;
+  navigation?: Navigation | boolean;
+  pagination?: Pagination | boolean;
   slidesPerView?: number;
   spaceBetweenSlides?: number;
-  speed?: number
+  speed?: number;
   breakpoints?: Breakpoints;
+  index?: number;
+  template?: (context: SlideItem) => Element | string;
 }
 
 export type CSSSelector = string;
@@ -55,7 +53,7 @@ export interface SlideItem {
   type: SlideType;
   source: Source;
   image: Image;
-
+  link: string;
 }
 
 export interface Source {

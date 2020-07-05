@@ -42,6 +42,8 @@ test.todo('should be fade effect');
 
 test.todo('should be lazy load image');
 
+test.todo('should be video source');
+
 test.todo('should be support should touch');
 
 test.todo('should be configure sensitivity');
@@ -57,8 +59,6 @@ test.todo('width must be 337');
 test.todo('height must be 443');
 
 test.todo('should be infinity loop');
-
-test.todo('should mobie');
 
 test.todo('should be next preview');
 
@@ -80,7 +80,7 @@ test.todo('start index must be 2');
 
 test.todo('should be support breakpoints system');
 
-test.todo('should be support slots');
+test.todo('should be support templates');
 
 test.todo('the data must be updated');
 
