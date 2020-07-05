@@ -17,6 +17,23 @@ test('should be lock', () => {
   expect(swiper.lock).toBeTruthy();
 });
 
+test('should be thtrow error', () => {
+  expect(() => {
+    // eslint-disable-next-line no-new
+    new Swiper('wrong-type-selector');
+  }).toThrow();
+
+  expect(() => {
+    // eslint-disable-next-line no-new
+    new Swiper('wrong-type-selector');
+  }).toThrowError();
+
+  expect(() => {
+    // eslint-disable-next-line no-new
+    new Swiper('wrong-type-selector');
+  }).toThrowErrorMatchingSnapshot();
+});
+
 test.todo('should be anchor');
 
 test.todo('should be slide effect');
@@ -70,7 +87,5 @@ test.todo('the data must be updated');
 test.todo('support resize window');
 
 test.todo('FIXME: add stryker');
-
-test.todo('FIXME: add testcafe');
 
 test.todo('FIXME: move to monorepo');

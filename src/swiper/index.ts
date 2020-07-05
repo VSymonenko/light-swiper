@@ -16,13 +16,13 @@ class Swiper extends SwiperOptions implements ISwiper {
 
   readonly $el!: HTMLElement | Element | null;
 
-  constructor(selector: CSSSelector, slides: Slide[], options?: Options) {
+  constructor(selector: CSSSelector, slides?: Slide[], options?: Options) {
     super();
     validateSelector(selector);
     this.selector = selector;
     const type = detectSelector(selector);
     this.$el = getElement(type, selector.substring(1));
-    this.slides = slides;
+    this.slides = slides || [];
     if (options) {
       Object.keys(options).forEach((key) => {
         this[key] = options[key];
