@@ -1,4 +1,4 @@
-import { CSSSelector, CSSSelectorType } from '@/types';
+import { CSSSelector, CSSSelectorType } from '../swiper/src/types';
 
 /**
  * return specifyed selector type

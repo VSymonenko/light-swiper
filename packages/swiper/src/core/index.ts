@@ -3,12 +3,12 @@ import {
   ISwiper,
   Slide,
   SwiperOptions as Options,
-} from '@/types';
+} from '../types';
 import {
   detectSelector,
   getElement,
   validateSelector,
-} from '@/utils';
+} from '../../../utils';
 import SwiperOptions from './initOptions';
 
 class Swiper extends SwiperOptions implements ISwiper {

@@ -1,4 +1,4 @@
-import { CSSSelector } from '@/types';
+import { CSSSelector } from '../swiper/src/types';
 
 const startChar = ['.', '#'];
 const startMessage = String

@@ -1,4 +1,4 @@
-import { SwiperOptions as Options, Slide } from '@/types';
+import { SwiperOptions as Options, Slide } from '../types';
 
 export default class SwiperOptions implements Options {
   public get lock() {
