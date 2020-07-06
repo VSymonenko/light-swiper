@@ -1,0 +1,15 @@
+{
+  "name": "@swiper-x/docs",
+  "version": "0.0.1",
+  "description": "Swiper-X documentations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "swiper",
+    "slider"
+  ],
+  "author": "Volodymy Symonenko",
+  "license": "MIT"
+}

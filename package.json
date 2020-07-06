@@ -1,8 +1,5 @@
 {
-  "name": "light-swiper",
-  "version": "0.0.1",
   "description": "A lightweight swiper",
-  "main": "dist/index.js",
   "scripts": {
     "check": "npm run check:types && npm run lint && npm test",
     "lint": "eslint . --ext .ts",
@@ -50,6 +47,7 @@
     "fork-ts-checker-webpack-plugin": "^5.0.6",
     "husky": "^4.2.5",
     "jest": "^26.1.0",
+    "lerna": "^3.22.1",
     "ts-loader": "^7.0.5",
     "typescript": "^3.9.6"
   },
