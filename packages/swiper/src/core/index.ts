@@ -21,7 +21,7 @@ class Swiper extends SwiperOptions implements ISwiper {
     validateSelector(selector);
     this.selector = selector;
     const type = detectSelector(selector);
-    this.$el = getElement(type, selector.substring(1));
+    this.$el = getElement(type, selector);
     this.slides = slides || [];
     if (options) {
       Object.keys(options).forEach((key) => {

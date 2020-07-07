@@ -1,4 +1,4 @@
-import { isString, validateSelector } from '../../src';
+import { isString, validateSelector } from '@/index';
 
 describe('should be check string type', () => {
   test('should be pass string', () => {

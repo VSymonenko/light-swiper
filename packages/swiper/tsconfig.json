@@ -14,13 +14,11 @@
     "moduleResolution": "node",
     "suppressImplicitAnyIndexErrors": true,
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["packages/*"]
     }
   },
   "include": [
-    "src/**/*",
-    "tests/**/*",
-    "packages/*"
+    "packages/**/*",
   ],
   "exclude": [
     "node_modules",

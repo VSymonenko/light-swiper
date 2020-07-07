@@ -18,6 +18,6 @@ export const detectSelector = (
 export const getElement = (
   type: CSSSelectorType, selector: CSSSelector,
 ): HTMLElement | Element | null => (
-  type === 'id' ? document.getElementById(selector)
-    : document.getElementsByClassName(selector).item(0)
+  type === 'id' ? document.getElementById(selector.substring(1))
+    : document.getElementsByClassName(selector.substring(1)).item(0)
 );

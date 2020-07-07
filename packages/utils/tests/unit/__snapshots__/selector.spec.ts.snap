@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should be return e DOM element should be return Element 1`] = `
+<div
+  class="test"
+/>
+`;
+
+exports[`should be return e DOM element should return HTMLElement 1`] = `
+<div
+  id="test"
+/>
+`;
