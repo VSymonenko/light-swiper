@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should be check string type should be pass string 1`] = `true`;
+
+exports[`should be check string type should be thtrow error when pass wrong type argument 1`] = `"Value 'null' should be a string type"`;
+
+exports[`should be check string type should be thtrow error when pass wrong type argument 2`] = `"Value 'undefined' should be a string type"`;
+
+exports[`should be check string type should be thtrow error when pass wrong type argument 3`] = `"Value '0' should be a string type"`;
+
+exports[`should be check string type should be thtrow error when pass wrong type argument 4`] = `"Value '9007199254740991' should be a string type"`;
+
+exports[`should be check string type should be thtrow error when pass wrong type argument 5`] = `"Value 'true' should be a string type"`;
+
+exports[`should be check string type should be thtrow error when pass wrong type argument 6`] = `"Cannot convert a Symbol value to a string"`;
+
+exports[`should be check string type should be thtrow error when pass wrong type argument 7`] = `"Value '[object Object]' should be a string type"`;
+
+exports[`should be check string type should be thtrow error when pass wrong type argument 8`] = `"Value 'array' should be a string type"`;
+
+exports[`should be validate selector should be throw error 1`] = `"Selector should be start with '.' or '#' symbol"`;
+
+exports[`should be validate selector should be valid id type selector 1`] = `true`;

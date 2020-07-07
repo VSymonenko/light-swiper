@@ -2,9 +2,12 @@
   "name": "@swiper-x/utils",
   "version": "0.0.1-alpha.0",
   "description": "Swiper-X utils",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint . --ext .ts",
+    "test": "jest",
+    "check:types": "tsc --noEmit",
+    "check": "npm run check:types && npm run lint && npm test",
+    "diagnostics": "tsc --diagnostics --extendedDiagnostics"
   },
   "keywords": [
     "swiper",

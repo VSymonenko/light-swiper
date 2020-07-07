@@ -1,4 +1,4 @@
-import { CSSSelector, CSSSelectorType } from '../swiper/src/types';
+import { CSSSelector, CSSSelectorType } from '@/types';
 
 /**
  * return specifyed selector type
@@ -21,5 +21,3 @@ export const getElement = (
   type === 'id' ? document.getElementById(selector)
     : document.getElementsByClassName(selector).item(0)
 );
-
-export * from './validator';

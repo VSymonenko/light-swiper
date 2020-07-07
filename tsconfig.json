@@ -11,7 +11,6 @@
     "target": "ES2015",
     "declaration": true,
     "baseUrl": ".",
-    "outDir": "dist",
     "moduleResolution": "node",
     "suppressImplicitAnyIndexErrors": true,
     "paths": {
