@@ -2,6 +2,7 @@
   "name": "@swiper-x/utils",
   "version": "0.0.7-alpha.0",
   "description": "Swiper-X utils",
+  "main": "dist/index.js",
   "scripts": {
     "lint": "eslint . --ext .ts",
     "test": "jest",
