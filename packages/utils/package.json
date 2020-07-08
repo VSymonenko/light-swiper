@@ -1,6 +1,6 @@
 {
   "name": "@swiper-x/utils",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Swiper-X utils",
   "main": "dist/index.js",
   "scripts": {
@@ -18,6 +18,5 @@
   ],
   "author": "Volodymy Symonenko",
   "license": "MIT",
-  "gitHead": "44ad2e14a8f843640481f64d4ef3377350854ed7",
-  "dependencies": {}
+  "gitHead": "44ad2e14a8f843640481f64d4ef3377350854ed7"
 }
