@@ -9,9 +9,7 @@
     "strict": true,
     "alwaysStrict": true,
     "target": "ES2015",
-    "declaration": true,
     "baseUrl": ".",
-    "declarationDir": "dist",
     "moduleResolution": "node",
     "suppressImplicitAnyIndexErrors": true,
     "paths": {

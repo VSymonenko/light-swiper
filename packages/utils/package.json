@@ -18,5 +18,6 @@
   ],
   "author": "Volodymy Symonenko",
   "license": "MIT",
-  "gitHead": "44ad2e14a8f843640481f64d4ef3377350854ed7"
+  "gitHead": "44ad2e14a8f843640481f64d4ef3377350854ed7",
+  "dependencies": {}
 }
