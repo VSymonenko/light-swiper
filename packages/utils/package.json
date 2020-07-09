@@ -1,6 +1,6 @@
 {
   "name": "@swiper-x/utils",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Swiper-X utils",
   "main": "dist/index.js",
   "scripts": {
