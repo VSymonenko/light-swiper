@@ -1,12 +1,7 @@
 /* eslint-disable no-empty-function */
-// import Swiper from '@/swiper';
-// import { SwiperOptions, SlideItem } from '@/types';
-/* eslint-disable no-unused-vars */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-// FIXME
-declare let Swiper: any;
-type SwiperOptions = any;
-type SlideItem = any;
+import Swiper from '@swiper-x/core';
+import { SwiperOptions, SlideItem } from '@/types';
+//  FIXME add check
 export default {
   title: 'Vanilla usage',
 };

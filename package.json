@@ -5,8 +5,7 @@
     "test": "jest",
     "check:types": "tsc --noEmit",
     "diagnostics": "tsc --diagnostics --extendedDiagnostics",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "playground": "lerna exec --scope @swiper-x/docs -- npm run storybook"
   },
   "repository": {
     "type": "git",

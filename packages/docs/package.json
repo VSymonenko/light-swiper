@@ -2,7 +2,10 @@
   "name": "@swiper-x/docs",
   "version": "0.0.7-alpha.0",
   "description": "Swiper-X documentations",
-  "scripts": {},
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
   "keywords": [
     "swiper",
     "slider"

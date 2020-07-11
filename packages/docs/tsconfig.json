@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "dist",
     "sourceMap": true,
     "skipLibCheck": true,
     "noImplicitReturns": true,
@@ -9,15 +11,18 @@
     "strict": true,
     "alwaysStrict": true,
     "target": "ES2015",
-    "declaration": true,
     "baseUrl": ".",
     "moduleResolution": "node",
     "suppressImplicitAnyIndexErrors": true,
     "paths": {
-      "@/*": ["packages/*"]
+      "@/*": ["src/*", "../*"],
+      "@swiper-x": ["../*"]
     }
   },
+  "include": [
+    "stories/**/*",
+  ],
   "exclude": [
-    "node_modules",
+    "node_modules"
   ]
 }

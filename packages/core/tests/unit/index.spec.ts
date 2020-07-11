@@ -1,4 +1,4 @@
-import Swiper from '../../src/core';
+import Swiper from '@/swiper';
 import { options } from '../../src/fixtures';
 
 let swiper: Swiper;
