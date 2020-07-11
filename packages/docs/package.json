@@ -1,6 +1,6 @@
 {
   "name": "@swiper-x/docs",
-  "version": "0.0.7-alpha.0",
+  "version": "0.1.4-alpha.0",
   "description": "Swiper-X documentations",
   "scripts": {
     "storybook": "start-storybook -p 6006",
