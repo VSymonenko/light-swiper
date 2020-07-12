@@ -61,3 +61,5 @@
 * For commit use ```git-cz``` from [commitizen](https://commitizen.github.io/cz-cli/)
 
 * ```npm run playground``` run storybook dev server
+
+* ```npm run publish``` publish packages to npm registry
