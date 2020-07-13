@@ -18,6 +18,22 @@ export const basic = () => {
         </div>`;
 };
 
+export const textSlides = () => {
+  const slides = [
+    'slide 1',
+    'slide 2',
+    'slide 3',
+  ];
+
+  setTimeout(() => {
+    // @ts-ignore
+    const swiper = new Swiper('.swiper-container', slides);
+  });
+
+  return `<div class=swiper-container>
+        </div>`;
+};
+
 export const withSlides = () => {
   setTimeout(() => {
     // attach swiper after container mounted

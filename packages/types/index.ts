@@ -42,7 +42,7 @@ export type CSSSelector = string;
 
 export type CSSSelectorType = 'class' | 'id';
 
-export type Slide = string | SlideItem | SlideNode | HTMLElement;
+export type Slide = string | SlideItem | SlideNode;
 
 export type SlideNode = HTMLElementTagNameMap[keyof HTMLElementTagNameMap];
 
