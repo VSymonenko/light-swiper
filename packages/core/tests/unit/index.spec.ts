@@ -1,5 +1,5 @@
 import Swiper from '@/swiper';
-import { options } from '../../src/fixtures';
+import { options } from '@/fixtures';
 
 let swiper: Swiper;
 const el = document.createElement('div');

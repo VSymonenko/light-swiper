@@ -23,3 +23,9 @@ export const options: SwiperOptions = {
   spaceBetweenSlides: 15,
   speed: 300,
 };
+
+export const textSlides = [
+  'slide 1',
+  'slide 2',
+  'slide 3',
+];
