@@ -16,6 +16,8 @@ class Swiper extends SwiperOptions implements ISwiper {
 
   readonly $el!: HTMLElement | Element | null;
 
+  readonly slideWrapper!: HTMLDivElement;
+
   constructor(selector: CSSSelector, slides?: Slide[], options?: Options) {
     super();
     validateSelector(selector);
@@ -39,6 +41,13 @@ class Swiper extends SwiperOptions implements ISwiper {
   }
 
   // ANCHOR methods
+
+  // TODO implement this, method should be return ref on html element
+  // private createSlideWrapper() {
+  //   const wrapper = document.createElement('div');
+  //   wrapper.className = 'swiper-wrapper';
+  //   this.$el && this.$el.appendChild(wrapper);
+  // }
 }
 
 export default Swiper;
