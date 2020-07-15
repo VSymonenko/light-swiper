@@ -13,6 +13,8 @@ export const basic = () => {
     // attach swiper after container mounted
     // @ts-ignore
     const swiper = new Swiper('.swiper-container');
+    // eslint-disable-next-line no-console
+    console.log(swiper);
   });
   return `<div class=swiper-container>
         </div>`;

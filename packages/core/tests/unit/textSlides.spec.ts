@@ -27,6 +27,6 @@ test('should be changed slides', () => {
   );
 });
 
-test.skip('should be render text nodes', () => {
+test('should be render text nodes', () => {
   expect(swiper.slideWrapper).toMatchSnapshot();
 });

@@ -25,6 +25,7 @@ class Swiper extends SwiperOptions implements ISwiper {
     const type = detectSelector(selector);
     this.$el = getElement(type, selector);
     this.slides = slides || [];
+    this.slideWrapper = this.createSlideWrapper();
     if (options) {
       Object.keys(options).forEach((key) => {
         this[key] = options[key];
@@ -42,12 +43,12 @@ class Swiper extends SwiperOptions implements ISwiper {
 
   // ANCHOR methods
 
-  // TODO implement this, method should be return ref on html element
-  // private createSlideWrapper() {
-  //   const wrapper = document.createElement('div');
-  //   wrapper.className = 'swiper-wrapper';
-  //   this.$el && this.$el.appendChild(wrapper);
-  // }
+  private createSlideWrapper(): HTMLDivElement {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'swiper-wrapper';
+    this.$el?.appendChild(wrapper);
+    return wrapper;
+  }
 }
 
 export default Swiper;
