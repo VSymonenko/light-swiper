@@ -9,6 +9,14 @@ export default class SwiperOptions implements Options {
     this.#lock = value;
   }
 
+  public get netflix() {
+    return this.#netflix;
+  }
+
+  public set netflix(value: boolean) {
+    this.#netflix = value;
+  }
+
   public get slides() {
     return this.#slides;
   }
@@ -18,6 +26,8 @@ export default class SwiperOptions implements Options {
   }
 
   #lock: boolean = false;
+
+  #netflix: boolean = false;
 
   #slides!: Slide[];
 

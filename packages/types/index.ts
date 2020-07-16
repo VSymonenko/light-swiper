@@ -21,6 +21,7 @@ export interface Breakpoints {
 }
 
 export interface SwiperOptions {
+  netflix?: boolean;
   lock?: boolean;
   effect?: Effect;
   sensitivity?: number;

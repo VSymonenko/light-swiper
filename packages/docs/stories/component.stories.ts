@@ -6,3 +6,6 @@ export default {
 
 export const basic = () => `<div class=basic-swiper-container>
                             </div>`;
+
+export const netflixMode = () => `<div class=basic-swiper-container netflix>
+                                  </div>`;

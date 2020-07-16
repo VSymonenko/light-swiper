@@ -12,9 +12,19 @@ beforeEach(() => {
 });
 
 test('should be lock', () => {
+  expect(swiper.lock).toBeFalsy();
+
   swiper.lock = true;
 
   expect(swiper.lock).toBeTruthy();
+});
+
+test('should be netflix mode', () => {
+  expect(swiper.netflix).toBeFalsy();
+
+  swiper.netflix = true;
+
+  expect(swiper.netflix).toBeTruthy();
 });
 
 test('should be thtrow error', () => {

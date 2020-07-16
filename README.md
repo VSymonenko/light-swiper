@@ -4,6 +4,8 @@
 
 ### API
 
+❌ netflix mode
+
 ❌ Lock Swiper
 
 ❌ Anchor support
