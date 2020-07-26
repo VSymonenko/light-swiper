@@ -3,6 +3,7 @@
   "version": "0.1.4-alpha.0",
   "description": "Swiper-X documentations",
   "scripts": {
+    "test:regression": "run-s storybook test:vrt test",
     "test": "jest",
     "lint": "eslint . --ext .ts",
     "check:types": "tsc --noEmit",
