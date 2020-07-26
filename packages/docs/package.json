@@ -3,11 +3,13 @@
   "version": "0.1.4-alpha.0",
   "description": "Swiper-X documentations",
   "scripts": {
+    "test": "jest",
     "lint": "eslint . --ext .ts",
     "check:types": "tsc --noEmit",
     "check": "npm run check:types && npm run lint",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "test:vrt": "docker-compose up"
   },
   "keywords": [
     "swiper",

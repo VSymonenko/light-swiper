@@ -21,6 +21,7 @@
   },
   "include": [
     "stories/**/*",
+    "tests/*"
   ],
   "exclude": [
     "node_modules"
