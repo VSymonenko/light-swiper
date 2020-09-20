@@ -11,7 +11,7 @@
     "check": "npm run check:types && npm run lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test:vrt": "docker-compose up"
+    "chromatic": "chromatic"
   },
   "keywords": [
     "swiper",
@@ -19,5 +19,8 @@
   ],
   "author": "Volodymy Symonenko",
   "license": "MIT",
-  "gitHead": "44ad2e14a8f843640481f64d4ef3377350854ed7"
+  "gitHead": "44ad2e14a8f843640481f64d4ef3377350854ed7",
+  "devDependencies": {
+    "chromatic": "^5.1.0"
+  }
 }

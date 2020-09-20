@@ -17,9 +17,9 @@ export const basic = () => {
     console.log(swiper);
   });
   return `<div class=swiper-container>
-            <div>slide 1</div>
-            <div>slide 2</div>
-            <div>slide 3</div>
+            <div>slide #1</div>
+            <div>slide #2</div>
+            <div>slide #3</div>
         </div>`;
 };
 

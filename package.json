@@ -41,6 +41,7 @@
     "@typescript-eslint/parser": "^3.8.0",
     "@visual-regression-tracker/agent-playwright": "^3.0.1",
     "babel-loader": "^8.1.0",
+    "chromatic": "^5.1.0",
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
     "declaration-bundler-webpack-plugin": "^1.0.3",
