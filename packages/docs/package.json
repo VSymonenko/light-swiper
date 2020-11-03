@@ -1,10 +1,8 @@
 {
   "name": "@swiper-x/docs",
-  "version": "0.1.4-alpha.0",
+  "version": "0.0.1",
   "description": "Swiper-X documentations",
   "scripts": {
-    "postinstall": "node installDeno.js",
-    "test:regression": "run-s storybook test:vrt test",
     "test": "jest",
     "lint": "eslint . --ext .ts",
     "check:types": "tsc --noEmit",
@@ -18,9 +16,5 @@
     "slider"
   ],
   "author": "Volodymy Symonenko",
-  "license": "MIT",
-  "gitHead": "44ad2e14a8f843640481f64d4ef3377350854ed7",
-  "devDependencies": {
-    "chromatic": "^5.1.0"
-  }
+  "license": "MIT"
 }

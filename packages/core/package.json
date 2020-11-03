@@ -1,13 +1,15 @@
 {
   "name": "@swiper-x/core",
-  "version": "0.1.4-alpha.0",
+  "version": "0.0.1",
   "description": "Swiper-X",
-  "scripts": {},
+  "main": "./index.ts",
+  "scripts": {
+    "build": "webpack --config config/webpack.prod.js"
+  },
   "keywords": [
     "swiper",
     "slider"
   ],
   "author": "Volodymy Symonenko",
-  "license": "MIT",
-  "gitHead": "44ad2e14a8f843640481f64d4ef3377350854ed7"
+  "license": "MIT"
 }

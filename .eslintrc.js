@@ -24,5 +24,7 @@ module.exports = {
     'import/extensions': 0,
     'no-unused-expressions': 0,
     'import/no-extraneous-dependencies': 0,
+    'no-useless-constructor': 'off',
+    '@typescript-eslint/no-useless-constructor': ['error'],
   },
 };

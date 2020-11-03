@@ -65,3 +65,21 @@
 * ```npm run playground``` run storybook dev server
 
 * ```npm run publish``` publish packages to npm registry
+
+## Known issues
+
+* lerna bootstrap not working as expected, you can use npm link for link packages manually
+
+## Development
+
+### Run docs
+
+```bash
+lerna run storybook
+```
+
+> run and show child process log
+
+```bash
+lerna run storybook --stream
+```
