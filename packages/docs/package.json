@@ -9,7 +9,7 @@
     "check": "npm run check:types && npm run lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "chromatic"
+    "chromatic": "chromatic --project-token $CHROMATIC_PROJECT_TOKEN --exit-zero-on-changes"
   },
   "keywords": [
     "swiper",
