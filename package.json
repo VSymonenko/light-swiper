@@ -4,6 +4,7 @@
     "check": "npm run check:types && npm run lint && npm test",
     "test": "jest",
     "check:types": "tsc --noEmit",
+    "lint": "eslint . --ext .ts",
     "diagnostics": "tsc --diagnostics --extendedDiagnostics",
     "playground": "lerna exec --scope @swiper-x/docs -- npm run storybook",
     "publish": "lerna run check && lerna run build && lerna publish"
