@@ -3,7 +3,6 @@ const path = require('path');
 module.exports = {
   stories: ['../stories/**/*.stories.[tj]s'],
   addons: [
-    '@storybook/preset-typescript',
     '@storybook/addon-storysource',
     '@storybook/addon-docs',
   ],
@@ -25,5 +24,3 @@ module.exports = {
     return config;
   },
 };
-
-// FIXME: ro to webpack 5
