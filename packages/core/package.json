@@ -2,9 +2,9 @@
   "name": "@swiper-x/core",
   "version": "0.0.1",
   "description": "Swiper-X",
-  "main": "./index.ts",
+  "main": "dist/core/src",
   "scripts": {
-    "build": "webpack --config config/webpack.prod.js"
+    "build": "tsc -p tsconfig.build.json"
   },
   "keywords": [
     "swiper",
