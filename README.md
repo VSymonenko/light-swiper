@@ -70,6 +70,8 @@
 
 ## Development
 
+[Dev flow](https://youtu.be/9o6uB1X-LZ8)
+
 ### Run docs
 
 ```bash
