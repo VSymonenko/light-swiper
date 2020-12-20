@@ -8,7 +8,8 @@
     "diagnostics": "tsc --diagnostics --extendedDiagnostics",
     "playground": "lerna exec --scope @swiper-x/docs -- npm run storybook",
     "publish": "lerna run check && lerna run build && lerna publish",
-    "chromatic": "lerna exec --scope @swiper-x/docs -- npm run chromatic"
+    "chromatic": "lerna exec --scope @swiper-x/docs -- npm run chromatic",
+    "build": "lerna run build"
   },
   "repository": {
     "type": "git",
