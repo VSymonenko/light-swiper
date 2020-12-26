@@ -17,6 +17,7 @@ jobs:
         # 👇 Adds Chromatic as a step in the workflow
       - name: Deploy to Chromatic
         uses: chromaui/action@v1
+        run: npm run build-storybook
         # Chromatic GitHub Action options
         with:
           storybookBuildDir: packages/docs
