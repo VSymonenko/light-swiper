@@ -13,11 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Install dependencies
-        run: npm i
+        run: npm i && npm run build-storybook
         # 👇 Adds Chromatic as a step in the workflow
       - name: Deploy to Chromatic
         uses: chromaui/action@v1
-        run: npm run build-storybook
         # Chromatic GitHub Action options
         with:
           storybookBuildDir: packages/docs
