@@ -9,7 +9,8 @@
     "playground": "lerna exec --scope @swiper-x/docs -- npm run storybook",
     "publish": "lerna run check && lerna run build && lerna publish",
     "chromatic": "lerna exec --scope @swiper-x/docs -- npm run chromatic",
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "build-storybook": "lerna exec --scope @swiper-x/docs -- npm run build"
   },
   "repository": {
     "type": "git",
